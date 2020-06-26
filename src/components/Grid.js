@@ -4,8 +4,6 @@ import Cell from './Cell'
 export default function Grid(props) {
     const width = props.column * 15 + props.column
 
-    console.log(props)
-
     var rows = []
     let cellClass = ""
 
